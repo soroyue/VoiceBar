@@ -1,0 +1,29 @@
+# Xcode
+*.xcuserstate
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM/
+
+# Build
+build/
+*.app
+*.dSYM
+
+# macOS
+.DS_Store
+*.log
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+
+# Misc
+*.orig
+*.rej

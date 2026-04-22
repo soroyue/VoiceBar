@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092E8486F811D0EBDC19447BE63A4D69 /* TextInjectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558AAE4FD721D01E9D181F6452CFCF8 /* TextInjectionService.swift */; };
+		2F14927C10D9737F8DEE37D4B409C3E2 /* CGEventTapHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = D2AF1877D5012C641DAEBD3D6A97333C /* CGEventTapHelper.c */; };
+		317FB2CFF18C5147DEE7098A115A0206 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D110A1351EE4D5AB29ACC47CBC749 /* SettingsManager.swift */; };
+		42554487EA8B61D2C3E5F797A6DC8CA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7AD1850DBAFA6B241FFF1A90AAE862 /* main.swift */; };
+		56F7BAE17A2EEF250B1590FE8B31DED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE85690C18A8D07FDA6B0D88ACD11DC /* AppDelegate.swift */; };
+		6CC693F10F990EDCF31DA063FCA0D2E6 /* FloatingPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08CA9866DEAE4B43F8F421C81B68458 /* FloatingPanelController.swift */; };
+		74C05F48534E7BDEA5847FA911CF5893 /* AutoTypeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799BB1E59F3A29E74199CF643D605EB6 /* AutoTypeService.swift */; };
+		A2E1261F087FD97D6941DBAB61543A27 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7C88E50581BE722AFDAE0973D1760 /* SettingsWindowController.swift */; };
+		A3B4848E2A7FB4E381DF61BE84F8704B /* KeyboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1364E478D407FF4A5DB201FED5458 /* KeyboardMonitor.swift */; };
+		AB40EDE230819046407CDD8680FE4695 /* LLMRefinementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31543C73A2308C2B6B2C94061D77684 /* LLMRefinementService.swift */; };
+		AD522D1067A5872E85B94AA61E8DCDF3 /* AudioRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0324A18288218199D96F88FDE57CAB08 /* AudioRecorderService.swift */; };
+		F616D9DBF57FC37CBFC2CD6F3D7018AD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20B96BCC58A6C4D49227B2FE6C5D3F0 /* IOKit.framework */; };
+		FDEEB255C423EB0CF104C461E5196CA3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7BE771EB8D93A8878F02EAD0A2393F /* Carbon.framework */; };
+		FF14F312B8B1CB32A7D2CB9A37021FCD /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94207617A7CA44D2D242592D15DC9902 /* SpeechRecognitionService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0324A18288218199D96F88FDE57CAB08 /* AudioRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderService.swift; sourceTree = "<group>"; };
+		0CE85690C18A8D07FDA6B0D88ACD11DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12B3459F527F4B41547E9D4ACA334531 /* CGEventTapHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGEventTapHelper.h; sourceTree = "<group>"; };
+		1A180F1964CB1F8A8632B3F29D775D08 /* VoiceBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE1364E478D407FF4A5DB201FED5458 /* KeyboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMonitor.swift; sourceTree = "<group>"; };
+		5558AAE4FD721D01E9D181F6452CFCF8 /* TextInjectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInjectionService.swift; sourceTree = "<group>"; };
+		701D755F38B236F15ACFD2BA0796F2C3 /* VoiceBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VoiceBar.entitlements; sourceTree = "<group>"; };
+		799BB1E59F3A29E74199CF643D605EB6 /* AutoTypeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTypeService.swift; sourceTree = "<group>"; };
+		8C7AD1850DBAFA6B241FFF1A90AAE862 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94207617A7CA44D2D242592D15DC9902 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		9D7BE771EB8D93A8878F02EAD0A2393F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		C08CA9866DEAE4B43F8F421C81B68458 /* FloatingPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelController.swift; sourceTree = "<group>"; };
+		C20B96BCC58A6C4D49227B2FE6C5D3F0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		C23D110A1351EE4D5AB29ACC47CBC749 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		C31543C73A2308C2B6B2C94061D77684 /* LLMRefinementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMRefinementService.swift; sourceTree = "<group>"; };
+		D2AF1877D5012C641DAEBD3D6A97333C /* CGEventTapHelper.c */ = {isa = PBXFileReference; path = CGEventTapHelper.c; sourceTree = "<group>"; };
+		DD03B178BE7C492087E905FA61F8B05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD7C88E50581BE722AFDAE0973D1760 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4D3828081CA56EDA7D13CAE3BCC2F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEEB255C423EB0CF104C461E5196CA3 /* Carbon.framework in Frameworks */,
+				F616D9DBF57FC37CBFC2CD6F3D7018AD /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09177BAAEC54DDE22D7B4555D454876A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				0324A18288218199D96F88FDE57CAB08 /* AudioRecorderService.swift */,
+				94207617A7CA44D2D242592D15DC9902 /* SpeechRecognitionService.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		260EDA4D55890F94E5D18C7B07C17A15 = {
+			isa = PBXGroup;
+			children = (
+				BAB674EFF59D443D8D43CD4C363B2E2C /* VoiceBar */,
+				5E89B8CFB95AD607157A5E9EDE990436 /* Frameworks */,
+				9E63F443EBCA0138494A378175EA447A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0799101EBDB6675CD98C00DC8500B4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0CE85690C18A8D07FDA6B0D88ACD11DC /* AppDelegate.swift */,
+				8C7AD1850DBAFA6B241FFF1A90AAE862 /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		357E350AF4AE047F0CDAA1DD5D7E9770 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF1877D5012C641DAEBD3D6A97333C /* CGEventTapHelper.c */,
+				12B3459F527F4B41547E9D4ACA334531 /* CGEventTapHelper.h */,
+				2AE1364E478D407FF4A5DB201FED5458 /* KeyboardMonitor.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		4E8FBF9D23AEFF70A64A2216BFE3EEC3 /* LLM */ = {
+			isa = PBXGroup;
+			children = (
+				C31543C73A2308C2B6B2C94061D77684 /* LLMRefinementService.swift */,
+			);
+			path = LLM;
+			sourceTree = "<group>";
+		};
+		5E89B8CFB95AD607157A5E9EDE990436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D7BE771EB8D93A8878F02EAD0A2393F /* Carbon.framework */,
+				C20B96BCC58A6C4D49227B2FE6C5D3F0 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E90BCE79340DD05CAB86B95B7D59FFA /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				799BB1E59F3A29E74199CF643D605EB6 /* AutoTypeService.swift */,
+				5558AAE4FD721D01E9D181F6452CFCF8 /* TextInjectionService.swift */,
+			);
+			path = Injection;
+			sourceTree = "<group>";
+		};
+		9E63F443EBCA0138494A378175EA447A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A180F1964CB1F8A8632B3F29D775D08 /* VoiceBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7957BF7CCB3AD5112255DE3267B635E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C08CA9866DEAE4B43F8F421C81B68458 /* FloatingPanelController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BAB674EFF59D443D8D43CD4C363B2E2C /* VoiceBar */ = {
+			isa = PBXGroup;
+			children = (
+				2D0799101EBDB6675CD98C00DC8500B4 /* App */,
+				09177BAAEC54DDE22D7B4555D454876A /* Audio */,
+				6E90BCE79340DD05CAB86B95B7D59FFA /* Injection */,
+				357E350AF4AE047F0CDAA1DD5D7E9770 /* Keyboard */,
+				4E8FBF9D23AEFF70A64A2216BFE3EEC3 /* LLM */,
+				D3296B4E2C0CA91FB4E740C828C3317E /* Resources */,
+				F1059DBB2FBA3EC2242A181F20B83F41 /* Settings */,
+				B7957BF7CCB3AD5112255DE3267B635E /* UI */,
+			);
+			path = VoiceBar;
+			sourceTree = "<group>";
+		};
+		D3296B4E2C0CA91FB4E740C828C3317E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD03B178BE7C492087E905FA61F8B05E /* Info.plist */,
+				701D755F38B236F15ACFD2BA0796F2C3 /* VoiceBar.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1059DBB2FBA3EC2242A181F20B83F41 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C23D110A1351EE4D5AB29ACC47CBC749 /* SettingsManager.swift */,
+				ECD7C88E50581BE722AFDAE0973D1760 /* SettingsWindowController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		076B437C94C6A3449DC5E477FB37E8C7 /* VoiceBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1609C00F4455D04ED8B1D6D3B9DAC46 /* Build configuration list for PBXNativeTarget "VoiceBar" */;
+			buildPhases = (
+				6B8C1A538A129969ACB3467A125F248F /* Sources */,
+				B4D3828081CA56EDA7D13CAE3BCC2F3B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceBar;
+			productName = VoiceBar;
+			productReference = 1A180F1964CB1F8A8632B3F29D775D08 /* VoiceBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9EABB9BB4010441F6D637E87864E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					076B437C94C6A3449DC5E477FB37E8C7 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9AD808DAEC8F4340B175AF58CE936FD8 /* Build configuration list for PBXProject "VoiceBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 260EDA4D55890F94E5D18C7B07C17A15;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076B437C94C6A3449DC5E477FB37E8C7 /* VoiceBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8C1A538A129969ACB3467A125F248F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F7BAE17A2EEF250B1590FE8B31DED8 /* AppDelegate.swift in Sources */,
+				AD522D1067A5872E85B94AA61E8DCDF3 /* AudioRecorderService.swift in Sources */,
+				74C05F48534E7BDEA5847FA911CF5893 /* AutoTypeService.swift in Sources */,
+				2F14927C10D9737F8DEE37D4B409C3E2 /* CGEventTapHelper.c in Sources */,
+				6CC693F10F990EDCF31DA063FCA0D2E6 /* FloatingPanelController.swift in Sources */,
+				A3B4848E2A7FB4E381DF61BE84F8704B /* KeyboardMonitor.swift in Sources */,
+				AB40EDE230819046407CDD8680FE4695 /* LLMRefinementService.swift in Sources */,
+				317FB2CFF18C5147DEE7098A115A0206 /* SettingsManager.swift in Sources */,
+				A2E1261F087FD97D6941DBAB61543A27 /* SettingsWindowController.swift in Sources */,
+				FF14F312B8B1CB32A7D2CB9A37021FCD /* SpeechRecognitionService.swift in Sources */,
+				092E8486F811D0EBDC19447BE63A4D69 /* TextInjectionService.swift in Sources */,
+				42554487EA8B61D2C3E5F797A6DC8CA9 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		053E5E69423FDAFB9C450EE39FD73DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = VoiceBar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		18E8A11AABD6C68680BE1A8D0872D77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VoiceBar/Resources/VoiceBar.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VoiceBar/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicebar.app;
+			};
+			name = Release;
+		};
+		532D857E7C397252691668E972F9A02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = VoiceBar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		CBCC4AB62615168BD347B3EC2A786925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VoiceBar/Resources/VoiceBar.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VoiceBar/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicebar.app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD808DAEC8F4340B175AF58CE936FD8 /* Build configuration list for PBXProject "VoiceBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053E5E69423FDAFB9C450EE39FD73DA6 /* Debug */,
+				532D857E7C397252691668E972F9A02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1609C00F4455D04ED8B1D6D3B9DAC46 /* Build configuration list for PBXNativeTarget "VoiceBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCC4AB62615168BD347B3EC2A786925 /* Debug */,
+				18E8A11AABD6C68680BE1A8D0872D77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9EABB9BB4010441F6D637E87864E73 /* Project object */;
+}
