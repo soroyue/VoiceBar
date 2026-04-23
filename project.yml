@@ -1,0 +1,39 @@
+name: VoiceBar
+options:
+  bundleIdPrefix: com.voicebar
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+  groupSortPosition: top
+
+settings:
+  base:
+    PRODUCT_NAME: VoiceBar
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    ENABLE_HARDENED_RUNTIME: YES
+
+targets:
+  VoiceBar:
+    type: application
+    platform: macOS
+    sources:
+      - path: VoiceBar
+        excludes:
+          - "*.yml"
+          - "*.xcodeproj"
+    settings:
+      base:
+        INFOPLIST_FILE: VoiceBar/Resources/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.voicebar.app
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks"
+        COMBINE_HIDPI_IMAGES: YES
+        CODE_SIGN_ENTITLEMENTS: VoiceBar/Resources/VoiceBar.entitlements
+    dependencies:
+      - sdk: Carbon.framework
+      - sdk: IOKit.framework

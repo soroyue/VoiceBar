@@ -12,6 +12,7 @@ final class SettingsManager {
         static let llmAPIKey = "VoiceBar.LLMAPIKey"
         static let llmModel = "VoiceBar.LLMModel"
         static let triggerKey = "VoiceBar.TriggerKey"
+        static let urbanPlanningEnabled = "VoiceBar.UrbanPlanningEnabled"
     }
 
     private init() {
@@ -24,6 +25,9 @@ final class SettingsManager {
         }
         if defaults.object(forKey: Keys.llmModel) == nil {
             defaults.set("gpt-3.5-turbo", forKey: Keys.llmModel)
+        }
+        if defaults.object(forKey: Keys.urbanPlanningEnabled) == nil {
+            defaults.set(true, forKey: Keys.urbanPlanningEnabled)
         }
     }
 
@@ -63,6 +67,11 @@ final class SettingsManager {
     var triggerKey: String? {
         get { defaults.string(forKey: Keys.triggerKey) }
         set { defaults.set(newValue, forKey: Keys.triggerKey) }
+    }
+
+    var urbanPlanningEnabled: Bool {
+        get { defaults.bool(forKey: Keys.urbanPlanningEnabled) }
+        set { defaults.set(newValue, forKey: Keys.urbanPlanningEnabled) }
     }
 
     func clearLLMAPIKey() {

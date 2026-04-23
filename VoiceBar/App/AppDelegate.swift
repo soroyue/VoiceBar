@@ -117,6 +117,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         langItem.submenu = langMenu
         menu.addItem(langItem)
 
+        // Urban planning vocabulary toggle
+        let urbanVocabItem = NSMenuItem(title: "城市规划专业词库", action: #selector(toggleUrbanPlanning(_:)), keyEquivalent: "")
+        urbanVocabItem.target = self
+        urbanVocabItem.state = SettingsManager.shared.urbanPlanningEnabled ? .on : .off
+        menu.addItem(urbanVocabItem)
+
         let llmMenu = NSMenu()
         let llmEnabledItem = NSMenuItem(title: "Enable LLM Refinement", action: #selector(toggleLLMEnabled(_:)), keyEquivalent: "")
         llmEnabledItem.target = self
@@ -313,6 +319,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         speechRecognizer.updateLanguage(code)
+    }
+
+    @objc private func toggleUrbanPlanning(_ sender: NSMenuItem) {
+        let newState = !SettingsManager.shared.urbanPlanningEnabled
+        SettingsManager.shared.urbanPlanningEnabled = newState
+        sender.state = newState ? .on : .off
     }
 
     @objc private func toggleLLMEnabled(_ sender: NSMenuItem) {
